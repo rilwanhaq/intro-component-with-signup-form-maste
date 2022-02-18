@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+.parent
+{
+    background: hsl(0, 100%, 74%);
+
+}
+.left{
+    float: left;
+    width: 45%;
+}
+.right{
+    float: right;
+    width: 45%;
+}
+h1
+{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:2em;
+    font-weight: bold;
+    margin-top: -550px;
+    margin-left: 105px;
+    width: 400px;
+    padding: 0;
+}
+#para
+{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 100px;
+    width: 445px;
+}
+.btn-parent{
+    position: absolute;
+    margin-top: -690px;
+    margin-right: 180px;
+    width: 410px;
+    background: hsl(249, 29%, 38%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    border: 5px solid   hsl(0, 100%, 74%);
+    padding: 25px 15px;
+    border-radius: 13px;
+}
+#anchor
+{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 80px;
+}
+.btn-parent:hover
+{
+    background: hsl(250, 28%, 21%);
+    color: white;
+    padding: 25px 15px 25px 15px;
+}
+.signup-parent
+{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    position: absolute;
+    margin-top: -600px;
+    padding: 40px;
+    border-radius: 13px;
+}
+.pad{
+    padding: 5px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+#submit
+{
+    background-color: hsl(154, 59%, 51%);
+    cursor: pointer;
+}
+#submit:hover
+{
+    background-color: hsl(154, 59%, 41%);
+}
+#condition{
+    font-size: 12px;
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+}
+#terms{
+    font-size: 12px;
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    padding: 10px;
+}
+@media screen and (min-width:300px) and (max-width:1200px){
+    .left{
+        float: left;
+        width: 100%;
+    }
+    .right{
+        float: right;
+        width: 100%;
+    }
+    
+}
