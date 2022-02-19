@@ -16,6 +16,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif; 
+    margin-top: 60px;
 }
 #main-container{
     height: 100%;
@@ -23,6 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;  
+    
 }
 .right{
     padding: 5px;
